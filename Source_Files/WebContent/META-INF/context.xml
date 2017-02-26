@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/ecommerce"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password="Allyouneedislove"
+        url="jdbc:mysql://localhost:3306/ecommerce"/>
+</Context>

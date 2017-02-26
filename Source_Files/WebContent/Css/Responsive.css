@@ -1,0 +1,140 @@
+#page{
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+section {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+aside{
+float: left;
+margin: 0 0 20px 1%;
+padding: 0;   
+}
+#bar1{
+width:30%;
+}
+#bar2{
+width:18%;
+}
+footer {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nos media queries */
+
+	
+@media screen and (max-width:1200px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    display: inline-block;
+  }
+  ul.topnav li.logo{
+    float: left;
+    display: inline-block;
+    margin-right:0%;
+  } 
+  ul.topnav div.dropdown-content {
+    position: relative;
+}
+}
+@media screen and (max-width:1200px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: center;
+   	left: 0;
+    top: 20px;
+    margin-left:100px;
+  }
+    ul.topnav.responsive li.logo {
+    position: center;
+   	left: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+  }
+    ul.topnav div.dropdown-content {
+    position: relative;
+}
+}
+@media screen and (max-width: 1170px) { 
+	#bar1,
+	#bar2{
+	width:39%;	
+	}
+	aside{
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;   
+	}
+}	
+@media screen and (max-width:990px) {
+	.aggiungic{
+	clear:both;
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;
+	}
+}
+@media screen and (max-width:770px) {
+	#bar1,
+	#bar2{
+	clear:both;
+	width:100%;	
+	}
+	aside{
+	float: left;
+	margin: 0 0 20px 1%;
+	padding: 0;   
+	}
+}	
+@media only screen and (max-width: 1500px){
+#campo-ricerca .form-search .input-text {
+    width: 85% !important;
+}
+}
+@media only screen and (max-width: 1000px){
+#campo-ricerca .form-search .input-text {
+    width: 80% !important;
+}
+}
+@media only screen and (max-width: 800px){
+#campo-ricerca .form-search .input-text {
+    width: 75% !important;
+}
+}	
+@media only screen and (max-width: 639px){
+#campo-ricerca .form-search .input-text {
+    width: 70% !important;
+}
+}
+@media only screen and (max-width: 480px){
+#campo-ricerca .form-search .input-text {
+    width: 62% !important;
+}
+}
+@media only screen and (max-width: 430px){
+#campo-ricerca .form-search .input-text {
+    width: 48% !important;
+}
+}
+
